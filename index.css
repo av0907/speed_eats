@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 200;
+    font-style: normal;
+  }
+
+
+  .madimi-one-regular {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  

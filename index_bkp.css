@@ -1,0 +1,146 @@
+.header{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    top: 0px;
+    /*border: 1px solid black;*/
+    background-color:rgb(210, 8, 116);
+}
+.nav_list{
+    list-style-type: none;
+    display: flex;
+}
+
+.nav_items{
+    margin-right: 25px;
+}
+
+.list_item{
+    padding: 0px 20px;
+    font-size: 18px;
+   /* color: #d8D;*/
+   color: aliceblue;
+}
+.list_item:hover{
+    cursor: pointer;
+    transition-timing-function: ease-in-out;
+    font-weight:bold;
+}
+
+.logo{
+    height:100%;
+    transform: scale(1.05);
+    transition-timing-function: ease-in-out;
+}
+
+.login-btn{
+    padding:3.5px;
+}
+.login-btn:hover{
+    cursor: pointer;
+
+}
+/*Body Styles*/
+
+.top_rated_filter{
+    display: flex;
+    margin:5px;
+}
+
+.res_card{
+    width:230px;
+    margin: 10px;
+    background-color: lightgray;
+    border-radius: 5%;
+}
+
+.res_card:hover{
+    cursor: pointer;
+    transform: scale(0.99);
+}
+
+.body_container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image_in_res_card{
+    
+    width: 100%;
+    height:135px;
+    border-radius: 5%;
+}
+
+.shimmer_container{
+    margin:20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.shimmer_card{
+    border-radius: 5%;
+    margin:10px;
+    width: 220px;
+    height: 300px;
+    background-color: #f0f0f0;
+}
+
+
+
+/******************RestaurantMenu styles******************/
+
+.section_div{
+    
+    width: 50%;
+    margin:0px auto;
+}
+.section_title{
+
+    background-color: #f0f0f0;
+    border: 0.5px solid gray;
+    padding: 10px;
+    font-weight: 500;
+    display: block;
+}
+
+.item_div_container{
+    border-bottom: 0.5px solid  rgba(40, 44, 63, .45);;
+    margin-bottom:15px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    height: 20%;
+    padding-bottom: 20px;
+}
+.item_div{
+    width: 85%;
+}
+
+.item_div_title{
+    font-family:Arial, Helvetica, sans-serif;
+    color:#3e4152;
+    font-weight: 500;
+    font-size: 1.22rem;
+}
+.item_div_price{
+    margin-top: 2.5px;
+    font-size: 1rem;
+    color:#3e4152;
+}
+.item_div_description{
+    margin-top: 14px;
+    color: rgba(40, 44, 63, .45);
+    font-size: 1rem;
+}
+
+.item_img_container{
+    width:15%;
+    height: 20%;
+    margin-right: 7px;
+}
+
+.item_img{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 3%;
+}
